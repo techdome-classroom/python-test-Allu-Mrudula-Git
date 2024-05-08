@@ -2,7 +2,9 @@ def decode_message( s: str, p: str) -> bool:
 # write your code here
         lp= len(p)
         ls= len(s)
-        dp= [[0]*(ls+1)]*(lp+1)
+        dp= []
+        for i range(lp+1):
+                
         dp[0][1]= 1
         print(dp)
         for i in range(1, lp+1):
