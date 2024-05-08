@@ -54,6 +54,11 @@ def getTotalIsles(grid: list[list[str]]) -> int:
                             q.append((p[0], p[1]+1))
         return ans
 
-grid= 
+grid= [
+             ["L","L","L","L","W"],
+             ["L","L","W","L","W"],
+             ["L","L","W","W","W"],
+             ["W","W","W","W","W"],
+         ]
 print(getTotalIsles())
     
