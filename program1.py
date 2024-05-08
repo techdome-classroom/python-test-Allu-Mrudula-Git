@@ -1,5 +1,6 @@
 class Solution:
    
+    dirs= [(0,1),(0,-1),(1,0),(-1,0)]
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
         n= len(grid)
