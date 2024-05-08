@@ -11,7 +11,7 @@ class Solution:
                 if grid[i][j]== 'L':
                     ans+=1
                     q= [(i,j)]
-                    while(len(q)!=0):
+                    while(len(q)>0):
                         p= q[0]
                         grid[p]= 'W'
                         q.pop(0)
