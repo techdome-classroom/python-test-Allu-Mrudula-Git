@@ -27,4 +27,7 @@ class Solution:
         print(ans)
 
         return ans
+
+Solution s
+
     
