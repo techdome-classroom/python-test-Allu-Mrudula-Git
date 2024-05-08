@@ -26,6 +26,6 @@ class Solution:
 
         return ans
 
-Solution s
+Solution s()
 print(Solution.getTotalIsles(sol))
     
