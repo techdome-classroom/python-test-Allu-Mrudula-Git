@@ -5,7 +5,8 @@ def decode_message( s: str, p: str) -> bool:
         dp= []
         for i in range(lp+1):
                 f= []
-                
+                for j in range(ls+1):
+                        f.append(0)
         dp[0][1]= 1
         print(dp)
         for i in range(1, lp+1):
