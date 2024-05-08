@@ -11,5 +11,6 @@ class Solution:
                 if grid[i][j]== 'L':
                     ans+=1
                     q= [(i,j)]
-                    
+                    for d in dirs:
+                        
         return 0
