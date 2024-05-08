@@ -13,6 +13,7 @@ def decode_message( s: str, p: str) -> bool:
                                 j+=1
                         while(j< ls+1):
                                 dp[i][j]=1
+                                j+=1
                 else:
                         for j in range(1, ls+1):
                                 if(p[i-1]=='?' or (p[i-1]== s[j-1])):
