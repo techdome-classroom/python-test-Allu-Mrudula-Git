@@ -8,6 +8,7 @@ class Solution:
         for i in range(n):
             for j in range(m):
                 if grid[i][j]== 'L':
+                    ans+=1
                     q= [(i,j)]
                     if()
                     
