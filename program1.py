@@ -11,7 +11,8 @@ class Solution:
                 if grid[i][j]== 'L':
                     ans+=1
                     q= [(i,j)]
-                    
+                    while(len(q)!=0):
+                        
 
         return 0
     
