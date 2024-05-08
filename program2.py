@@ -3,7 +3,8 @@ def decode_message( s: str, p: str) -> bool:
         lp= len(p)
         ls= len(s)
         dp= []
-        for i range(lp+1):
+        for i in range(lp+1):
+                f= []
                 
         dp[0][1]= 1
         print(dp)
