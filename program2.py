@@ -28,4 +28,4 @@ def decode_message( s: str, p: str) -> bool:
         print(dp)
         return (dp[lp][ls]==1)
 
-print(decode_message('abaacd', 'ab*c?*'))
+print(decode_message('abaacd', 'ab*c*'))
