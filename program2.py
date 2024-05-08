@@ -19,7 +19,7 @@ def decode_message( s: str, p: str) -> bool:
                                 if(p[i-1]=='?' or (p[i-1]== s[j-1])):
                                         dp[i][j]= dp[i-1][j-1]
 
-
+        print(dp)
         return (dp[lp][ls]==1)
 
 print(decode_message('abaacd', 'ab*?k?*'))
