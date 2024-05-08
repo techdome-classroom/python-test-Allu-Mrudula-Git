@@ -25,6 +25,5 @@ class Solution:
                             q.append((p[0], p[1]+1))
                     
 
-
         return 0
     
