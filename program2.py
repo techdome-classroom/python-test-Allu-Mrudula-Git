@@ -6,6 +6,7 @@ def decode_message( s: str, p: str) -> bool:
         dp[0][0]= 1
         for i in range(1, lp+1):
                 for j in range(1, ls+1):
+                        
 
         return dp
 
