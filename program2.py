@@ -5,7 +5,8 @@ def decode_message( s: str, p: str) -> bool:
         dp= [[0]*(ls+1)]*(lp+1)
         dp[0][0]= 1
         for i in range(lp+1):
-                
+                for j in range(ls+1):
+                        
         return dp
 
 print(decode_message('abaacd', 'ab*?c?*'))
