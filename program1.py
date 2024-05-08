@@ -26,6 +26,5 @@ class Solution:
 
         return ans
 
-Solution s()
-print(Solution.getTotalIsles(sol))
+print(Solution.getTotalIsles(, ))
     
