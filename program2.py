@@ -6,4 +6,4 @@ def decode_message( s: str, p: str) -> bool:
   
         return dp
 
-print(dp)
+print(decode_message('abaacd', 'ab*?c?*'))
