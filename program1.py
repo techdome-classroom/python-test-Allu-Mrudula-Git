@@ -12,6 +12,8 @@ class Solution:
                     ans+=1
                     q= [(i,j)]
                     while(len(q)!=0):
+                        p= q[0]
+                        q.pop(0)
                         
 
         return 0
