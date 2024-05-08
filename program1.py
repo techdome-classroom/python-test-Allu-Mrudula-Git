@@ -12,5 +12,4 @@ class Solution:
                     ans+=1
                     q= [(i,j)]
                     
-                    
         return 0
