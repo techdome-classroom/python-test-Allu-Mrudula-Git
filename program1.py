@@ -18,7 +18,7 @@ class Solution:
                             q.append((p[0]-1, q[0]))
                         if(p[0]<n and grid[p[0]+1][q[0]]=='L'):
                             q.append((p[0]+1, q[0]))
-                        if(p[1]>0 and )
+                        if(p[1]>0 and grid[p[0]][q[0]-1]=='L')
 
 
         return 0
