@@ -29,5 +29,5 @@ class Solution:
         return ans
 
 Solution s
-print(s.)
+print(s.ge)
     
