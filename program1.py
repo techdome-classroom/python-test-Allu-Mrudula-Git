@@ -6,12 +6,16 @@ class Solution:
         n= len(grid)
         m= len(grid[0])
         ans= 0
-        for i in range(n):
-            for j in range(m):
-                if grid[i][j]== 'L':
-                    ans+=1
-                    q= [(i,j)]
-                    for d in dirs:
-                        
+        # for i in range(n):
+        #     for j in range(m):
+        #         if grid[i][j]== 'L':
+        #             ans+=1
+        #             q= [(i,j)]
+        #             for d in dirs:
+
 
         return 0
+    
+x= (1,2)
+y= (0,3)
+print(x+y)
