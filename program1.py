@@ -42,7 +42,7 @@ def getTotalIsles(grid: list[list[str]]) -> int:
                     q= [(i,j)]
                     while(len(q)>0):
                         p= q[0]
-                        grid[p]= 'W'
+                        grid[p[0]][p[1]]= 'W'
                         q.pop(0)
                         if(p[0]>0 and grid[p[0]-1][p[1]]=='L'):
                             q.append((p[0]-1, p[1]))
