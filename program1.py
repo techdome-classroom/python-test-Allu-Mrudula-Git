@@ -23,8 +23,8 @@ class Solution:
                             q.append((p[0], p[1]-1))
                         if(p[1]<m and grid[p[0]][p[1]+1]=='L'):
                             q.append((p[0], p[1]+1))
+        
+        print(ans)
 
         return ans
-
-print(Solution.getTotalIsles(, ))
     
