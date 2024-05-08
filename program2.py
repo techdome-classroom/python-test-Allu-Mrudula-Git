@@ -8,7 +8,7 @@ def decode_message( s: str, p: str) -> bool:
                 if(p[i-1]=='*'):
                         j= 0
                         while(j< ls+1):
-                                if(dp[i-1][j-1]==1):
+                                if(dp[i-1][j]==1):
                                         break
                                 j+=1
                         while(j< ls+1):
