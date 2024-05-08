@@ -3,7 +3,7 @@ def decode_message( s: str, p: str) -> bool:
         lp= len(p)
         ls= len(s)
         dp= [0]*ls
-
   
-        return False
+        return dp
 
+print(dp)
