@@ -16,6 +16,3 @@ class Solution:
 
         return 0
     
-x= (1,2)
-y= (0,3)
-print((x[0]+))
