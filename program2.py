@@ -4,6 +4,7 @@ def decode_message( s: str, p: str) -> bool:
         ls= len(s)
         dp= [[0]*(ls+1)]*(lp+1)
         dp[0][0]= 1
+        print(dp)
         for i in range(1, lp+1):
                 if(p[i-1]=='*'):
                         j= 0
