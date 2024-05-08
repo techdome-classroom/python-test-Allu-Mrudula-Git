@@ -14,7 +14,8 @@ class Solution:
                     while(len(q)!=0):
                         p= q[0]
                         q.pop(0)
-                        if(p[0]>)
+                        if(p[0]>0):
+                            
 
         return 0
     
