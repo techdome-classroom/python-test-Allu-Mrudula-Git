@@ -1,8 +1,8 @@
 class Solution:
    
-    dirs= [(0,1),(0,-1),(1,0),(-1,0)]
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
+        dirs= [(0,1),(0,-1),(1,0),(-1,0)]
         n= len(grid)
         m= len(grid[0])
         ans= 0
@@ -13,4 +13,5 @@ class Solution:
                     q= [(i,j)]
                     for d in dirs:
                         
+
         return 0
