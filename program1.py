@@ -14,8 +14,8 @@ class Solution:
                     while(len(q)!=0):
                         p= q[0]
                         q.pop(0)
-                        if(p[0]>0):
-                            
+                        if(p[0]>0 and grid[p[0]][q[]]):
+
 
         return 0
     
