@@ -60,5 +60,5 @@ grid= [
              ["L","L","W","W","W"],
              ["W","W","W","W","W"],
          ]
-print(getTotalIsles())
+print(getTotalIsles(grid))
     
