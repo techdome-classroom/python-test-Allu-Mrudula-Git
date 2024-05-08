@@ -19,6 +19,6 @@ def decode_message( s: str, p: str) -> bool:
                                         dp[i][j]= dp[i-1][j-1]
 
 
-        return 
+        return dp[lp][ls]==1
 
 print(decode_message('abaacd', 'ab*?c?*'))
